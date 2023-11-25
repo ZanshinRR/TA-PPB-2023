@@ -1,0 +1,71 @@
+.containerBig { 
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between; align-items: center;
+}
+
+.posterBig {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.descriptionBig { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots button {
+    font-size: 10px;
+    line-height: 1;
+    color: #fff;
+    opacity: 0.5;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  .slick-dots button:hover {
+    opacity: 1;
+  }
+  
+
+
+
+#title {
+color: black; font-size: 22px;
+font-weight: bold; font-family: Verdana;
+}
+
+#score {
+    color: black; font-size: 22px;
+    font-weight: bold; font-family: Verdana;
+    }
+
+#genre { color: grey;
+font-family: Verdana; font-weight: 500; font-size: 12px; margin-top: 5px;
+}
+
+#theme { color: grey;
+    font-family: Verdana; font-weight: 500; font-size: 12px; margin-top: 5px;
+    }
+    
+    

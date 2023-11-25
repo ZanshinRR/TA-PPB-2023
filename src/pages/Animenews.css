@@ -1,0 +1,35 @@
+/* Add styling for the loading indicator */
+.AnimeNews-loading {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Style for the news container */
+  .AnimeNews {
+    margin-top: 20px;
+  }
+  
+  /* Style for the news list */
+  .AnimeNews ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each news item */
+  .AnimeNews li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for news item link */
+  .AnimeNews li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for news item link */
+  .AnimeNews li a:hover {
+    color: #ff6600;
+  }
+  

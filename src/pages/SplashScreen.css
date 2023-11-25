@@ -1,0 +1,14 @@
+/* SplashScreen.css */
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* Sesuaikan warna latar belakang sesuai kebutuhan */
+  }
+  
+  .splash-screen h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
