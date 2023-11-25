@@ -12,6 +12,7 @@ import Schedule from './pages/Schedule'
 import SplashScreen from './pages/SplashScreen'
 import Sidebar from "./component/sidebar";
 import Searchbar from "./component/searchbar"
+import DetailPage from './pages/SpyXFamily';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
   <Route path="/movie" element={<Movie />} />
   <Route path="/schedule" element={<Schedule />} />
   <Route path="/news" element={<AnimeNews />} />
+  <Route path="/movie/pages/:id" element={<DetailPage />} />
 
 
 </Routes>
