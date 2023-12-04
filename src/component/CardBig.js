@@ -20,9 +20,9 @@ export default function CardBig(props) {
       };
 
       return (
-        <div className="containerBig" onClick={()=> navigateFam()}>
-                <img src={props.img} className="posterBig" />
-          <div className="descriptionBig">
+        <div className="containerBig1" onClick={()=> navigateFam()}>
+                <img src={props.img} className="posterBig1" />
+          <div className="descriptionBig1">
             <div>
               <p id="title">{props.title}</p>
               <p id="Score">{props.score}</p>

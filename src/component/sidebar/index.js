@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './index.css';
 import { FaBars  } from 'react-icons/fa';
 
@@ -14,19 +15,19 @@ export default function index() {
         document.getElementById("main").style.marginRight= "0";
     }
 
-    return(
+    return (
         <>
-            <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onClick={()=> closeNav()}>×</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-            </div>
-
-            <div id="main">
-            <button class="openbtn" onClick={()=> openNav()}><FaBars className="bars"/></button>
-            </div>
+          {/* <div id="mySidebar" className="sidebar">
+            <Link to="#" className="closebtn" onClick={() => closeNav()}>
+            </Link>
+            <Link to="/profile">About Us</Link>
+          </div>
+    
+          <div id="main">
+            <button className="openbtn" onClick={() => openNav()}>
+              <FaBars className="bars" />
+            </button>
+          </div> */}
         </>
-    )
-}
+      );
+    }

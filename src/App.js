@@ -13,6 +13,7 @@ import SplashScreen from './pages/SplashScreen'
 import Sidebar from "./component/sidebar";
 import Searchbar from "./component/searchbar"
 import DetailPage from './pages/SpyXFamily';
+import Index from './component/sidebar/index'
 
 
 function App() {
@@ -33,9 +34,11 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-       <Searchbar/>
+        <Searchbar>
+     
         <p id="titleGroup">Anime News Plus</p>
         <Sidebar/>
+        </Searchbar>
       </header>
       <Routes>
   <Route path="/" element={<SplashScreen />} />
@@ -43,6 +46,8 @@ function App() {
   <Route path="/schedule" element={<Schedule />} />
   <Route path="/news" element={<AnimeNews />} />
   <Route path="/movie/pages/:id" element={<DetailPage />} />
+  <Route path="/sidebar/index:" element={<Index />} />
+   <Route path="/profile" element={<Profile/>} />
 
 
 </Routes>
